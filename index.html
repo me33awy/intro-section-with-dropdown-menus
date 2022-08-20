@@ -2,12 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <header class="primary-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 main-nav flex">
+            <h1 class="font-xlg font-700">snap</h1>
+            <nav class="flex flex-ai-c">
+              <ul class="flex nav-links">
+                <li>
+                  Features
+                  <ul class="box-shadow raduis right">
+                    <li>Todo List</li>
+                    <li>Calendar</li>
+                    <li>Reminders</li>
+                    <li>Planning</li>
+                  </ul>
+                </li>
+                <li>
+                  Company
+                  <ul class="box-shadow raduis left">
+                    <li>History</li>
+                    <li>Our Team</li>
+                    <li>Blog</li>
+                  </ul>
+                </li>
+                <li>Career</li>
+                <li>About</li>
+              </ul>
+            </nav>
+          </div>
+          <!-- <div class="col-md-6">
+            <span></span>
+          </div>
+          <div class="col-md-6">
+            <button class="secondary-btn btn btn-outline-primaryy">
+              <a href="#">Login</a>
+            </button>
+            <button class="primary-btn btn btn-primary">
+              <a href="#">Register</a>
+            </button>
+          </div> -->
+        </div>
+      </div>
+    </header>
   </body>
 </html>

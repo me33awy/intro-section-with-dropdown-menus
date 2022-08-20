@@ -1,0 +1,32 @@
+header {
+  padding: 30px;
+  .nav-links {
+    margin-left: 30px !important ;
+    gap: 50px;
+    li {
+      color: var(--medium-gray);
+      cursor: pointer;
+      font-weight: var(--fw-500);
+      &:hover {
+        color: var(--almost-black);
+        ul{
+          display: block;
+        }
+      }
+      position: relative;
+      ul {
+
+        display: none;
+        position: absolute;
+        top: 50px;
+        padding: 30px !important;
+        width: 150px;
+        li {
+          &:not(:last-child) {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+}
